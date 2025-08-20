@@ -20,6 +20,25 @@ This fragmentation leads to:
 - **Compliance risks** from regulatory requirements
 - **Vendor lock-in** dependencies
 
+## Current Status
+
+### ✅ Completed (100%)
+- **Research Phase**: Comprehensive analysis of 22 major organizations
+- **Analysis Phase**: Pattern identification and gap analysis
+- **Design Phase**: Intermediate notation system specification
+- **Documentation**: Substantive research documentation
+
+### 🔄 In Progress (25%)
+- **Entity Research**: 2/8 planned entities completed (Person, Company)
+- **Schema Analysis**: Common field patterns and PII assessment
+- **Implementation Planning**: Transformation engine design
+
+### ⏳ Planned
+- **Implementation Phase**: Build transformation engine and tools
+- **Validation Phase**: Test with real-world schemas
+- **Community Phase**: Engage with standards organizations
+- **Adoption Phase**: Industry-wide implementation
+
 ## Key Findings
 
 ### 1. Schema Fragmentation is Pervasive
@@ -92,23 +111,32 @@ The project proposes an **intermediate notation system** that provides:
 ## Research Documents
 
 ### Core Research
+- **[Skip.md](Skip.md)** - Main project document with strategic overview and current status
 - **[Entities.md](Entities.md)** - Combined analysis with historical, business, and technical perspectives
 - **[Format.md](Format.md)** - Intermediate notation system research and design
 - **[Person.md](Person.md)** - Person entity schemas (Work-in-Progress)
 - **[Company.md](Company.md)** - Company entity schemas (Work-in-Progress)
-- **[STATUS.md](STATUS.md)** - Detailed project status and progress tracking
+- **[TODO.md](TODO.md)** - Implementation planning and current tasks
+
+### Research Coverage
+- **22 major organizations** comprehensively analyzed
+- **8 major technology vendors** with detailed schema analysis
+- **6 major frameworks** with implementation examples
+- **2 core entities** (Person, Company) with 40+ schema examples each
+- **PII analysis** with compliance considerations
 
 ## Getting Started
 
 ### Researchers
-1. Review **[Entities.md](Entities.md)** for comprehensive analysis
-2. Examine **[Format.md](Format.md)** for proposed solution
-3. Note: Person and Company research is work-in-progress
+1. Start with **[Skip.md](Skip.md)** for comprehensive project overview and current status
+2. Review **[Entities.md](Entities.md)** for detailed analysis
+3. Examine **[Format.md](Format.md)** for proposed solution
+4. Note: Person and Company research is work-in-progress
 
 ### Developers
 1. Review the intermediate notation design in **[Format.md](Format.md)**
-2. Examine transformation examples for Person and Company entities
-3. Understand the evaluation criteria and design principles
+2. Check **[TODO.md](TODO.md)** for current implementation tasks and roadmap
+3. Examine transformation examples for Person and Company entities
 4. Consider contributing to the implementation phase
 
 ### Organizations
@@ -132,7 +160,6 @@ This is a research project focused on understanding and solving schema standardi
 For questions about this research project open an issue in this repository.
 
 **Skip** - Bridging the gap between schema standards
-
 
 **Version**: 0.1
 **Date**: August 2025
