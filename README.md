@@ -91,7 +91,7 @@ The project proposes an **intermediate notation system** that provides:
 
 ## Research Documents
 
-### 📚 Core Research
+### Core Research
 - **[Entities.md](Entities.md)** - Combined analysis with historical, business, and technical perspectives
 - **[Format.md](Format.md)** - Intermediate notation system research and design
 - **[Person.md](Person.md)** - Person entity schemas (Work-in-Progress)
